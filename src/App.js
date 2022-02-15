@@ -22,5 +22,5 @@ function App() {
   );
 }
 console.log("this is Ademola commit!");
-console.log("new change!");
+console.log("making new change");
 export default App;
