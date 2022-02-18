@@ -40,3 +40,10 @@
 .textField {
 color: red;
 }
+
+#myavatar {
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(6.0)
+}

@@ -2,6 +2,7 @@ import { AdeleViewer } from "./Components/adeleBot";
 import { GuestLoginPortal } from "./Components/guestLoginPortal";
 import { SearchBar } from "./Components/SearchBar";
 import { ToolBar } from "./Components/Toolbar";
+import { CreateAvatarDisplay } from "./Components/UserAvatar";
 import { UserProfile } from "./Components/userProfile";
 
 const backgroundStyle = {
@@ -20,6 +21,7 @@ export function Background() {
             <GuestLoginPortal></GuestLoginPortal>
             <ToolBar></ToolBar>
             <AdeleViewer></AdeleViewer>
+            <CreateAvatarDisplay></CreateAvatarDisplay>
         </div>
     )
 }
