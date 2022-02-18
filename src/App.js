@@ -1,26 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import { Background } from './Background';
+
+export function SearchBar() {
+  return(
+  <div>
+    Search bar
+  </div>
+  )
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <Background></Background>
   );
 }
-console.log("this is Ademola commit!");
-console.log("new change!");
+console.log("test change!");
 export default App;
