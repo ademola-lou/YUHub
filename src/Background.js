@@ -1,3 +1,4 @@
+import { AdeleViewer } from "./Components/adeleBot";
 import { GuestLoginPortal } from "./Components/guestLoginPortal";
 import { SearchBar } from "./Components/SearchBar";
 import { ToolBar } from "./Components/Toolbar";
@@ -18,6 +19,7 @@ export function Background() {
             <SearchBar value="search by hashtags"></SearchBar>
             <GuestLoginPortal></GuestLoginPortal>
             <ToolBar></ToolBar>
+            <AdeleViewer></AdeleViewer>
         </div>
     )
 }
