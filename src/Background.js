@@ -1,5 +1,6 @@
 import { GuestLoginPortal } from "./Components/guestLoginPortal";
 import { SearchBar } from "./Components/SearchBar";
+import { ToolBar } from "./Components/Toolbar";
 import { UserProfile } from "./Components/userProfile";
 
 const backgroundStyle = {
@@ -16,6 +17,7 @@ export function Background() {
             <UserProfile></UserProfile>
             <SearchBar value="search by hashtags"></SearchBar>
             <GuestLoginPortal></GuestLoginPortal>
+            <ToolBar></ToolBar>
         </div>
     )
 }
