@@ -1,6 +1,6 @@
 export function ToolBar() {
 function openAdele(){
-    console.log("loading 3d robot");
+    window.$("#adeleViewer").toggle();
 }
     return (
         <div className="ToolBarContainer" style={{

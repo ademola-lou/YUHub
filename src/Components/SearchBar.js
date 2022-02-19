@@ -14,7 +14,7 @@ export function SearchBar(props) {
         <div className="ui search">
         <div className="ui icon input">
         <input className="prompt" type="text" id="searchRoomValue" style={{color: "red"}} placeholder={props.value}></input>
-        <i className="exchange icon" onClick={console.log("ping")}></i>
+        <i className="exchange icon"></i>
         </div>
         <i className="search icon" style={{cursor: "pointer"}} onClick={searchByNewFilter}></i>
         <div className="results"></div>

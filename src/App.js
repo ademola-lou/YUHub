@@ -7,7 +7,7 @@ function App() {
    </Background>
   );
 }
-console.log("test change!");
+console.log("%cYUHub!", "font-size:5em; color: blue");
 //check if user is an new guest
 setTimeout(()=>{
   //show the register portal only if user has not registered before
@@ -15,7 +15,7 @@ setTimeout(()=>{
 
   //here we only change the name of the register button to register or update, we want to avoid creating duplicates 
   document.querySelector("#registerUserButton").innerHTML = "register";
-
+  
   if(!username){
     window.$('.ui.modal').modal('show');
   }else{
